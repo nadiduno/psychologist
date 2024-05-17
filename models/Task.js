@@ -1,20 +1,20 @@
 const mongoose = require("mongoose");
 
-const taskSchema = new mongoose.Schema({
+const volunteerSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
   },
   lastName: {
-    type: Boolean,
+    type: String,
     required: true,
   },
   cpf: {
-    type: Boolean,
+    type: String,
     required: true,
   },
   state: {
-    type: Boolean,
+    type: String,
     required: true,
   },
   date: {
